@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Response = require('./models/responseModel'); // Assuming you have a Response model
-const Form = require('./models/formModel'); // For form validation
+const Response = require('../models/Response'); // Assuming you have a Response model
+const Form = require('../models/formModel'); // For form validation
 
 // Route to submit a response
 router.post('/submit/:formId', async (req, res) => {
