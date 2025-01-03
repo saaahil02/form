@@ -1,21 +1,3 @@
-// import React ,{useState}from 'react';
-// import './styles/App.css';
-// import FormBuilder from "./components/FormBuilder";
-// import FormPreview from "./components/FormPreview";
-// import FormResponse from './components/FormResponse';
-
-// function App() {
-//   const [questions, setQuestions] = useState([]);
-//   return (
-//     <div className="App">
-//       <h1>Google Forms Clone</h1>
-//       <FormBuilder questions={questions} setQuestions={setQuestions} />
-//       <FormPreview questions={questions} />
-//     </div>
-//   );
-// }
-
-// export default App;
 import React, { useState } from "react";
 import "./styles/App.css";
 import FormBuilder from "./components/FormBuilder";
